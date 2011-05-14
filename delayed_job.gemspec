@@ -17,7 +17,7 @@ This gem is collectiveidea's fork (http://github.com/collectiveidea/delayed_job)
   s.require_paths     = ["lib"]
   s.test_files        = Dir.glob('spec/**/*')
 
-  s.add_runtime_dependency      'daemons',        '~> 1.1.3'
+  s.add_runtime_dependency      'ghazel-daemons', '~> 1.0.12'
   s.add_runtime_dependency      'activesupport',  '~> 2.0'
 
   s.add_development_dependency  'rspec',          '~> 1.0'
@@ -33,4 +33,3 @@ This gem is collectiveidea's fork (http://github.com/collectiveidea/delayed_job)
   s.add_development_dependency  'do_sqlite3'
   s.add_development_dependency  'database_cleaner'
 end
-
